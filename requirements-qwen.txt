@@ -1,0 +1,5 @@
+# Qwen3-ASR 独立环境依赖：conda create -n qwen3-asr python=3.12
+# RTX 50 系先安装 CUDA PyTorch：
+# pip install torch --index-url https://download.pytorch.org/whl/cu128
+qwen-asr
+funasr[knf]

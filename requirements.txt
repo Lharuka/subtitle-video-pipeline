@@ -1,0 +1,7 @@
+# 个人翻译工具箱 Python 依赖
+# 推荐装在 conda 环境 video-trans 里：pip install -r requirements.txt
+# 注意：ffmpeg / ffprobe 是系统依赖，不在这里，需单独安装并加入 PATH。
+
+faster-whisper    # step2 本地 ASR（懒加载，ASR_BACKEND=local 时需要）
+openai            # step2 云端 ASR（懒加载，ASR_BACKEND=cloud 时需要）
+modelscope        # download_model.py / step2 自动下载模型（ModelScope，国内友好）

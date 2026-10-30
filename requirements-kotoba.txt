@@ -1,0 +1,8 @@
+# Kotoba-Whisper 独立环境依赖：conda create -n kotoba-whisper python=3.11
+# RTX 50 系先安装 CUDA PyTorch：
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+transformers
+accelerate
+soundfile
+librosa
+huggingface_hub
